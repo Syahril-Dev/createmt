@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Metode Syahril</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Create Metode Syahril</h1>
+
+    <label for="namaWeb">Nama Web:</label>
+    <input type="text" id="namaWeb" placeholder="Contoh: SYAHRIL999" />
+
+    <label for="linkWeb">Link Web:</label>
+    <input type="text" id="linkWeb" placeholder="Contoh: https://999bet999bet.com/" />
+
+    <label for="methodSelect">Pilih Metode Promosi:</label>
+    <select id="methodSelect">
+      <option value="metode1">Metode 1</option>
+      <option value="metode2">Metode 2</option>
+      <option value="metode3">Metode 3</option>
+      <option value="metode4">Metode 4</option>
+    </select>
+
+    <button onclick="generateText()">Create Metode</button>
+
+    <div class="output-box">
+      <h2>Hasil Create Metode:</h2>
+      <pre id="resultText">Belum Ada Metode</pre>
+      <button onclick="copyText()">Copy Metode</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
